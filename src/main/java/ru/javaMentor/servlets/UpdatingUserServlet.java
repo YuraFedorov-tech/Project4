@@ -25,27 +25,20 @@ import java.util.Properties;
 
 @WebServlet("/updateUser")
 public class UpdatingUserServlet extends HttpServlet {
-    private Long id;
     private  ServiceDAO serviceDAO;
+    Long id;
 
     @Override
     public void init() throws ServletException {
         ServiceFactory serviceFactory=new ServiceFactory();
-        Properties properties = new Properties();
 
-        try {
-            properties.load(new FileInputStream(getServletContext().getRealPath("/WEB-INF/classes/db.properties")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
         // serviceDAO = serviceFactory.getServiceDAO("Hibernate", properties);
-        serviceDAO = serviceFactory.getServiceDAO("JDBC",properties);
+        serviceDAO = serviceFactory.getServiceDAO();
     }
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String idString = req.getParameter("id");
-        id = Long.parseLong(idString);
+          id = Long.valueOf((req.getParameter("id")));
         User user = serviceDAO.findUserAtId(id);
         List<User> users = new ArrayList<>();
         users.add(user);

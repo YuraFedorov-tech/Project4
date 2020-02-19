@@ -16,14 +16,17 @@ import ru.javaMentor.model.User;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class HDBConnection {
     private static HDBConnection hdbConnection;
     private static SessionFactory sessionFactory;
+    private static Properties properties;
 
     public static HDBConnection getHDBConnection() {
         if (hdbConnection == null) {
             hdbConnection = new HDBConnection();
+             properties = PropertyReader.getProperties(HDBConnection.class.getClassLoader().getResourceAsStream("db.properties"));
         }
         return hdbConnection;
     }
@@ -33,12 +36,11 @@ public class HDBConnection {
     private static Configuration getMySqlConfiguration() {
         Configuration configuration = new Configuration();
         configuration.addAnnotatedClass(User.class);
-
-        configuration.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQL95Dialect");
-        configuration.setProperty("hibernate.connection.driver_class", "org.postgresql.Driver");
-        configuration.setProperty("hibernate.connection.url", "jdbc:postgresql://localhost:5432/");
-        configuration.setProperty("hibernate.connection.username", "postgres");
-        configuration.setProperty("hibernate.connection.password", "123");
+        configuration.setProperty("hibernate.connection.url", properties.getProperty("dbUrl"));
+        configuration.setProperty("hibernate.connection.password", properties.getProperty("dbPassword"));
+        configuration.setProperty("hibernate.connection.driver_class", properties.getProperty("driverClassName"));
+        configuration.setProperty("hibernate.connection.username", properties.getProperty("dbUserName"));
+        configuration.setProperty("hibernate.dialect", properties.getProperty("dialect"));
         configuration.setProperty("hibernate.show_sql", "true");
         configuration.setProperty("hibernate.hbm2ddl.auto", "create");
         return configuration;
@@ -70,10 +72,10 @@ public class HDBConnection {
     public static Connection getConnection() {
         Connection connection;
         try {
-            String dbUrl = "jdbc:postgresql://localhost:5432/postgres";
-            String dbPassword = "123";
-            String dbUserName = "postgres";
-            String driverClassName = "org.postgresql.Driver";
+            String dbUrl=properties.getProperty("dbUrl");
+            String dbPassword = properties.getProperty("dbPassword");
+            String dbUserName = properties.getProperty("dbUserName");
+            String driverClassName = properties.getProperty("driverClassName");
             Class.forName(driverClassName);
             connection = DriverManager.getConnection(dbUrl, dbUserName, dbPassword);
             return connection;

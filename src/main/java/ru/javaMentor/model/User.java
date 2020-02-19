@@ -15,16 +15,16 @@ public class User {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    private Long id;
 
     @Column(name = "name")
-    String name;
+    private String name;
 
     @Column(name = "color")
-    String color;
+    private String color;
 
     @Column(name = "age")
-    int age;
+    private int age;
 
     public User(Long id, String name, String color, int age) {
         this.id = id;

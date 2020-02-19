@@ -34,19 +34,32 @@ public class UserDaoJDBC implements CrudDao<User> {
 
     @Override
     public void save(User user) {
+
         try {
+            connection.setAutoCommit(false);
             PreparedStatement preparedStatement = connection.prepareStatement(ADD_MODEL);
             preparedStatement.setString(1, user.getName());
             preparedStatement.setString(2, user.getColor());
             preparedStatement.setInt(3, user.getAge());
             preparedStatement.execute();
         } catch (SQLException e) {
-            e.printStackTrace();
+            try {
+                connection.rollback();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        }finally {
+            try {
+                connection.setAutoCommit(true);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
     @Override
     public void update(User user) {
         try {
+            connection.setAutoCommit(false);
             PreparedStatement preparedStatement = connection.prepareStatement(UPDATE_MODEL);
             preparedStatement.setString(1, user.getName());
             preparedStatement.setString(2, user.getColor());
@@ -54,7 +67,17 @@ public class UserDaoJDBC implements CrudDao<User> {
             preparedStatement.setLong(4, user.getId());
             preparedStatement.execute();
         } catch (SQLException e) {
-            e.printStackTrace();
+            try {
+                connection.rollback();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        }finally {
+            try {
+                connection.setAutoCommit(true);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
 
     }
@@ -63,11 +86,22 @@ public class UserDaoJDBC implements CrudDao<User> {
     public void delete(Long id) {
         PreparedStatement preparedStatement = null;
         try {
+            connection.setAutoCommit(false);
             preparedStatement = connection.prepareStatement(DELETE_MODEL);
             preparedStatement.setLong(1, id);
             preparedStatement.execute();
         } catch (SQLException e) {
-            e.printStackTrace();
+            try {
+                connection.rollback();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        }finally {
+            try {
+                connection.setAutoCommit(true);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
 
     }

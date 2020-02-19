@@ -30,16 +30,10 @@ public class DeletingUserServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         ServiceFactory serviceFactory=new ServiceFactory();
-        Properties properties = new Properties();
 
-        try {
-            properties.load(new FileInputStream(getServletContext().getRealPath("/WEB-INF/classes/db.properties")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
        // serviceDAO = serviceFactory.getServiceDAO("Hibernate", properties);
-        serviceDAO = serviceFactory.getServiceDAO("JDBC",properties);
+        serviceDAO = serviceFactory.getServiceDAO();
     }
 
     @Override
@@ -51,16 +45,17 @@ public class DeletingUserServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String[] items = req.getParameterValues("Delete");
 //assuming Order is your order class and orderList is your item list
-        List<User> users= serviceDAO.getAllUsers();
-        if (users == null)
-            users = new ArrayList<>();
-        for (User user : users) {
+
             for (String str : items) {
-                if (str.equals(user.getId().toString())) {
-                    serviceDAO.removeUser(user.getId());
+                try {
+                    serviceDAO.removeUser(Long.parseLong(str));
+                } catch (Throwable e) {
+                    e.printStackTrace();
                 }
+
+
             }
-        }
+
         resp.sendRedirect(req.getContextPath() + "/work");
     }
 }

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="03_02 02" />
         <module name="Project4" />
-        <module name="Fabrika" />
-        <module name="CRUD_HIBERNATE" />
+        <module name="03_02 02" />
         <module name="03-04" />
+        <module name="CRUD_HIBERNATE" />
+        <module name="Fabrika" />
       </profile>
     </annotationProcessing>
   </component>

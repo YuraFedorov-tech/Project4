@@ -29,14 +29,9 @@ public class MainServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         ServiceFactory serviceFactory=new ServiceFactory();
-        Properties properties = new Properties();
-        try {
-            properties.load(new FileInputStream(getServletContext().getRealPath("/WEB-INF/classes/db.properties")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
         // serviceDAO = serviceFactory.getServiceDAO("Hibernate", properties);
-        serviceDAO = serviceFactory.getServiceDAO("JDBC",properties);
+        serviceDAO = serviceFactory.getServiceDAO();
     }
 
     @Override

@@ -14,7 +14,6 @@ import java.util.List;
  *
  */
 public interface ServiceDAO {
-
     public List<User> getAllUsers();
 
     public void addUser(User user);

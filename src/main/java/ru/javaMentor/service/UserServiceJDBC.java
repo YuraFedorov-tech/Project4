@@ -8,7 +8,6 @@ package ru.javaMentor.service;
  */
 
 
-
 import ru.javaMentor.Dao.UserDaoJDBC;
 import ru.javaMentor.model.User;
 import ru.javaMentor.util.HDBConnection;
@@ -19,7 +18,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class UserServiceJDBC implements ServiceDAO {
-    Connection connection;
+    private Connection connection;
     private static UserServiceJDBC userServiceJDBC;
 
     private UserServiceJDBC(Connection connection) {
@@ -28,7 +27,7 @@ public class UserServiceJDBC implements ServiceDAO {
 
     public static UserServiceJDBC getInstance() {
         if (userServiceJDBC == null) {
-            userServiceJDBC = new UserServiceJDBC( HDBConnection.getHDBConnection().getConnection());
+            userServiceJDBC = new UserServiceJDBC(HDBConnection.getHDBConnection().getConnection());
             userServiceJDBC.create();
             System.out.println("init JDBC");
         }

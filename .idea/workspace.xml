@@ -2,11 +2,53 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Fabrika:war" />
+      <artifact name="Project4:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a21ec732-bf00-4f89-9b5a-8d1bc32ef6d8" name="Default Changelist" comment="" />
+    <list default="true" id="a21ec732-bf00-4f89-9b5a-8d1bc32ef6d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/util/PropertyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47446a70-b8cf-482b-8ec1-36ace1a30ead.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/47446a70-b8cf-482b-8ec1-36ace1a30ead.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoHiberbate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoHiberbate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Fabrica/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Fabrica/ServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/ServiceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/ServiceDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/UserServiceJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/UserServiceJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/DeletingUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/DeletingUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/UpdatingUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/UpdatingUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/util/HDBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/util/HDBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/crud.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/crud.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Dao/UserDaoHiberbate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Dao/UserDaoHiberbate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Dao/UserDaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Dao/UserDaoJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Fabrica/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Fabrica/ServiceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/service/UserServiceJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/service/UserServiceJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/DeletingUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/DeletingUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/UpdatingUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/UpdatingUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/util/HDBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/util/HDBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/jsp/crud.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/jsp/crud.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/jsp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/jsp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/Dao/UserDaoHiberbate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/Dao/UserDaoHiberbate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/Dao/UserDaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/Dao/UserDaoJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/Fabrica/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/Fabrica/ServiceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/service/UserServiceJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/service/UserServiceJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/DeletingUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/DeletingUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/UpdatingUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/UpdatingUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/util/HDBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/util/HDBConnection.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +131,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -97,6 +142,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1XGP2H7I0Nhd6h4sxrcHL6ZliDi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -105,6 +151,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -114,7 +161,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -284,6 +331,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -312,7 +364,10 @@
       <workItem from="1581014078646" duration="8430000" />
       <workItem from="1581098099377" duration="702000" />
       <workItem from="1581100315558" duration="1250000" />
-      <workItem from="1581101864789" duration="52000" />
+      <workItem from="1581101864789" duration="972000" />
+      <workItem from="1581961470767" duration="1592000" />
+      <workItem from="1582047631984" duration="3009000" />
+      <workItem from="1582138699868" duration="6926000" />
     </task>
     <servers />
   </component>
@@ -320,14 +375,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="92" key="#Project_Structure" timestamp="1580669811967">
+    <state x="312" y="92" key="#Project_Structure" timestamp="1582138732415">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="92" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1580669811967" />
-    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581101915784">
+    <state x="312" y="92" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1582138732415" />
+    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582138774543">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1581101915784" />
+    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1582138774543" />
     <state x="525" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1581019930077">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -340,86 +395,86 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1580930274816" />
-    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1581017814862">
+    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1582050247576">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1581017814862" />
-    <state width="1164" height="121" key="GridCell.Tab.0.bottom" timestamp="1581101626842">
+    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1582050247576" />
+    <state width="1164" height="168" key="GridCell.Tab.0.bottom" timestamp="1582145687203">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1581101626842" />
-    <state width="1164" height="121" key="GridCell.Tab.0.center" timestamp="1581101626841">
+    <state width="1164" height="168" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
+    <state width="1164" height="168" key="GridCell.Tab.0.center" timestamp="1582145687203">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1581101626841" />
-    <state width="1164" height="121" key="GridCell.Tab.0.left" timestamp="1581101626841">
+    <state width="1164" height="168" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
+    <state width="1164" height="168" key="GridCell.Tab.0.left" timestamp="1582145687203">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1581101626841" />
-    <state width="1164" height="121" key="GridCell.Tab.0.right" timestamp="1581101626842">
+    <state width="1164" height="168" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
+    <state width="1164" height="168" key="GridCell.Tab.0.right" timestamp="1582145687203">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1581101626842" />
-    <state width="1164" height="121" key="GridCell.Tab.1.bottom" timestamp="1581101626842">
+    <state width="1164" height="168" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
+    <state width="1164" height="168" key="GridCell.Tab.1.bottom" timestamp="1582145687203">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1581101626842" />
-    <state width="1164" height="121" key="GridCell.Tab.1.center" timestamp="1581101626842">
+    <state width="1164" height="168" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
+    <state width="1164" height="168" key="GridCell.Tab.1.center" timestamp="1582145687203">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1581101626842" />
-    <state width="1164" height="121" key="GridCell.Tab.1.left" timestamp="1581101626842">
+    <state width="1164" height="168" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
+    <state width="1164" height="168" key="GridCell.Tab.1.left" timestamp="1582145687203">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1581101626842" />
-    <state width="1164" height="121" key="GridCell.Tab.1.right" timestamp="1581101626842">
+    <state width="1164" height="168" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
+    <state width="1164" height="168" key="GridCell.Tab.1.right" timestamp="1582145687203">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1581101626842" />
-    <state width="1164" height="121" key="GridCell.Tab.2.bottom" timestamp="1581101626843">
+    <state width="1164" height="168" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
+    <state width="1164" height="168" key="GridCell.Tab.2.bottom" timestamp="1582145687204">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1581101626843" />
-    <state width="1164" height="121" key="GridCell.Tab.2.center" timestamp="1581101626842">
+    <state width="1164" height="168" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582145687204" />
+    <state width="1164" height="168" key="GridCell.Tab.2.center" timestamp="1582145687204">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1581101626842" />
-    <state width="1164" height="121" key="GridCell.Tab.2.left" timestamp="1581101626842">
+    <state width="1164" height="168" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1582145687204" />
+    <state width="1164" height="168" key="GridCell.Tab.2.left" timestamp="1582145687204">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1581101626842" />
-    <state width="1164" height="121" key="GridCell.Tab.2.right" timestamp="1581101626843">
+    <state width="1164" height="168" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1582145687204" />
+    <state width="1164" height="168" key="GridCell.Tab.2.right" timestamp="1582145687204">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="121" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1581101626843" />
-    <state width="1164" height="329" key="GridCell.Tab.3.bottom" timestamp="1581021953753">
+    <state width="1164" height="168" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1582145687204" />
+    <state width="1164" height="168" key="GridCell.Tab.3.bottom" timestamp="1582143189654">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="329" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1581021953753" />
-    <state width="1164" height="329" key="GridCell.Tab.3.center" timestamp="1581021953753">
+    <state width="1164" height="168" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582143189654" />
+    <state width="1164" height="168" key="GridCell.Tab.3.center" timestamp="1582143189654">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="329" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1581021953753" />
-    <state width="1164" height="329" key="GridCell.Tab.3.left" timestamp="1581021953753">
+    <state width="1164" height="168" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1582143189654" />
+    <state width="1164" height="168" key="GridCell.Tab.3.left" timestamp="1582143189654">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="329" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1581021953753" />
-    <state width="1164" height="329" key="GridCell.Tab.3.right" timestamp="1581021953753">
+    <state width="1164" height="168" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1582143189654" />
+    <state width="1164" height="168" key="GridCell.Tab.3.right" timestamp="1582143189654">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="329" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1581021953753" />
-    <state x="250" y="89" key="Maven.ArtifactSearchDialog" timestamp="1580671067583">
+    <state width="1164" height="168" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1582143189654" />
+    <state x="250" y="89" key="Maven.ArtifactSearchDialog" timestamp="1582142698559">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="250" y="89" key="Maven.ArtifactSearchDialog/0.0.1440.860@0.0.1440.860" timestamp="1580671067583" />
+    <state x="250" y="89" key="Maven.ArtifactSearchDialog/0.0.1440.860@0.0.1440.860" timestamp="1582142698559" />
     <state x="200" y="8" key="SettingsEditor" timestamp="1581101896383">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="200" y="8" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1581101896383" />
-    <state x="428" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1581100900287">
+    <state x="428" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1582047819526">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="428" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1581100900287" />
+    <state x="428" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1582047819526" />
     <state x="102" y="139" key="new project wizard" timestamp="1581014299918">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -442,13 +497,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoHiberbate.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="9" />
+          <line>27</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/javaMentor/Fabrica/ServiceFactory.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/UpdatingUserServlet.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

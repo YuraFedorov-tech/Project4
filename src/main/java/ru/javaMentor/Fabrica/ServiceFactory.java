@@ -10,21 +10,26 @@ package ru.javaMentor.Fabrica;
 import ru.javaMentor.service.ServiceDAO;
 import ru.javaMentor.service.ServiceDaoHiberbate;
 import ru.javaMentor.service.UserServiceJDBC;
+import ru.javaMentor.util.HDBConnection;
+import ru.javaMentor.util.PropertyReader;
 
-import java.io.FileInputStream;
+import java.io.*;
 import java.util.Properties;
 
 public class ServiceFactory {
-    public ServiceDAO getServiceDAO(String type, Properties properties) {
+    private final String dbPropPath = "resources" + File.separator + "db.properties";
+    private Properties properties;
 
-        String dbUrl = properties.getProperty("db.JDBC");
-        String dbUr2 = properties.getProperty("db.Hibernate");
-        System.out.println(dbUr2 + " 11 " + dbUrl);
-        if (type.equals(dbUr2))
+    public ServiceDAO getServiceDAO( ) {
+        Properties properties = PropertyReader.getProperties(HDBConnection.class.getClassLoader().getResourceAsStream("db.properties"));
+
+
+        String dbUrl = properties.getProperty("userDao");
+        if (dbUrl.equals("Hibernate"))
             return ServiceDaoHiberbate.getInstance();
-        if (type.equals(dbUrl))
+        if (dbUrl.equals("JDBC"))
             return UserServiceJDBC.getInstance();
-        throw new IllegalArgumentException("type=" + type);
+        throw new IllegalArgumentException("type=" );
     }
 }
 

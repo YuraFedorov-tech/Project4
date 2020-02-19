@@ -57,7 +57,8 @@
     <label for="age">age
         <input id="age" name="age">
     </label></br>
-    <input type="submit" value="inside in JDBC">
+
+    <input type="submit" value="inside in DB">
 </form>
 </br>
 </br>

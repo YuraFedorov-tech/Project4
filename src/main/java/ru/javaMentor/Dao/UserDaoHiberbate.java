@@ -8,6 +8,7 @@ package ru.javaMentor.Dao;
  */
 
 import org.hibernate.Hibernate;
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
@@ -17,8 +18,6 @@ import java.util.List;
 
 public class UserDaoHiberbate implements CrudDao<User> {
     private Session session;
-    //language=HQL
-    private final String HQL_UPDATE = "update User set name=:name ,color=:color, age=:age where id = :id  ";
 
     public UserDaoHiberbate(Session session) {
         this.session = session;
@@ -26,8 +25,7 @@ public class UserDaoHiberbate implements CrudDao<User> {
 
     @Override
     public User find(Long id) {
-        Query query = session.createQuery("from User where id = '" + id + "' ");
-        return (User) query.getSingleResult();
+        return session.byId(User.class).load(id);
     }
 
     @Override
@@ -39,23 +37,38 @@ public class UserDaoHiberbate implements CrudDao<User> {
     public void update(User model) {
         Transaction transaction = session.beginTransaction();
         int age9 = model.getAge();
-        Query query = session.createQuery(HQL_UPDATE);
-        query.setParameter("name", model.getName());
-        query.setParameter("color", model.getColor());
-        query.setParameter("id", model.getId());
-        query.setParameter("age", age9);
-        int result = query.executeUpdate();
-        transaction.commit();
+        try {
+            Query query = session.createQuery("update User set name=:name ,color=:color, age=:age where id = :id  ");
+            query.setParameter("name", model.getName());
+            query.setParameter("color", model.getColor());
+            query.setParameter("id", model.getId());
+            query.setParameter("age", age9);
+            int result = query.executeUpdate();
+            transaction.commit();
+        } catch (HibernateException he) {
+            transaction.rollback();
+        } finally {
+            session.close();
+        }
+
     }
 
     @Override
     public void delete(Long id) {
         String hql = "DELETE User WHERE id = :id";
         Transaction transaction = session.beginTransaction();
-        Query query = session.createQuery(hql);
-        query.setParameter("id", id);
-        int rows = query.executeUpdate();
-        transaction.commit();
+        try {
+            Query query = session.createQuery(hql);
+            query.setParameter("id", id);
+            int rows = query.executeUpdate();
+            transaction.commit();
+        } catch (HibernateException he) {
+            transaction.rollback();
+        } finally {
+            session.close();
+        }
+
+
     }
 
     @Override

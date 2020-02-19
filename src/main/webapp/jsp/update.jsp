@@ -42,7 +42,8 @@
     <label for="age">age
         <input id="age" name="age">
     </label></br>
-    <input type="submit" value="update in JDBC">
+
+        <input type="submit" value="update in DB">
 </form>
 
 </body>
