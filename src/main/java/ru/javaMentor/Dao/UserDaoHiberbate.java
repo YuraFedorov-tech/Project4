@@ -7,34 +7,42 @@ package ru.javaMentor.Dao;
  *
  */
 
-import org.hibernate.Hibernate;
-import org.hibernate.HibernateException;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
+import org.hibernate.*;
 import org.hibernate.query.Query;
 import ru.javaMentor.model.User;
 
 import java.util.List;
 
 public class UserDaoHiberbate implements CrudDao<User> {
-    private Session session;
+    private static SessionFactory sessionFactory;
+    private static UserDaoHiberbate userDaoHiberbate;
 
-    public UserDaoHiberbate(Session session) {
-        this.session = session;
+    private UserDaoHiberbate(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
+    public static UserDaoHiberbate getInstance(SessionFactory sessionFactory) {
+        if (userDaoHiberbate == null) {
+            userDaoHiberbate=new UserDaoHiberbate( sessionFactory);
+        }
+        return userDaoHiberbate;
     }
 
     @Override
     public User find(Long id) {
+        Session session = sessionFactory.openSession();
         return session.byId(User.class).load(id);
     }
 
     @Override
     public void save(User model) {
+        Session session = sessionFactory.openSession();
         session.save(model);
+        session.close();
     }
 
     @Override
     public void update(User model) {
+        Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         int age9 = model.getAge();
         try {
@@ -55,6 +63,7 @@ public class UserDaoHiberbate implements CrudDao<User> {
 
     @Override
     public void delete(Long id) {
+        Session session = sessionFactory.openSession();
         String hql = "DELETE User WHERE id = :id";
         Transaction transaction = session.beginTransaction();
         try {
@@ -67,12 +76,11 @@ public class UserDaoHiberbate implements CrudDao<User> {
         } finally {
             session.close();
         }
-
-
     }
 
     @Override
     public List<User> findAll() {
+        Session session = sessionFactory.openSession();
         Query query = session.createQuery("FROM User");
         List<User> users = query.list();
         return users;

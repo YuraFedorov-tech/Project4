@@ -8,9 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Project4" />
         <module name="03_02 02" />
-        <module name="03-04" />
         <module name="CRUD_HIBERNATE" />
         <module name="Fabrika" />
+        <module name="03-04" />
       </profile>
     </annotationProcessing>
   </component>

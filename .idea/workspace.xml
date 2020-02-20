@@ -7,47 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a21ec732-bf00-4f89-9b5a-8d1bc32ef6d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/util/PropertyReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/47446a70-b8cf-482b-8ec1-36ace1a30ead.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/47446a70-b8cf-482b-8ec1-36ace1a30ead.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoHiberbate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoHiberbate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Fabrica/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/Fabrica/ServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/ServiceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/ServiceDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/UserServiceJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/UserServiceJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/DeletingUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/DeletingUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/UpdatingUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/servlets/UpdatingUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/util/HDBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/util/HDBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/crud.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/crud.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/ServiceDaoHiberbate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javaMentor/service/ServiceDaoHiberbate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Dao/UserDaoHiberbate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Dao/UserDaoHiberbate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Dao/UserDaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Dao/UserDaoJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Fabrica/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/Fabrica/ServiceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/service/UserServiceJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/service/UserServiceJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/DeletingUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/DeletingUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/UpdatingUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/servlets/UpdatingUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/util/HDBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/util/HDBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/jsp/crud.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/jsp/crud.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/jsp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/jsp/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/service/ServiceDaoHiberbate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_HIBERNATE-0.1/WEB-INF/classes/ru/javaMentor/service/ServiceDaoHiberbate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/Dao/UserDaoHiberbate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/Dao/UserDaoHiberbate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/Dao/UserDaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/Dao/UserDaoJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/Fabrica/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/Fabrica/ServiceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/service/UserServiceJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/service/UserServiceJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/DeletingUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/DeletingUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/UpdatingUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/servlets/UpdatingUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/util/HDBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/util/HDBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javaMentor/service/ServiceDaoHiberbate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javaMentor/service/ServiceDaoHiberbate.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,6 +337,9 @@
       <workItem from="1581961470767" duration="1592000" />
       <workItem from="1582047631984" duration="3009000" />
       <workItem from="1582138699868" duration="6926000" />
+      <workItem from="1582220306057" duration="378000" />
+      <workItem from="1582225731027" duration="1778000" />
+      <workItem from="1582229106129" duration="375000" />
     </task>
     <servers />
   </component>
@@ -395,58 +367,58 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1580930274816" />
-    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1582050247576">
+    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1582227836405">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1582050247576" />
-    <state width="1164" height="168" key="GridCell.Tab.0.bottom" timestamp="1582145687203">
+    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1582227836405" />
+    <state width="1164" height="168" key="GridCell.Tab.0.bottom" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
-    <state width="1164" height="168" key="GridCell.Tab.0.center" timestamp="1582145687203">
+    <state width="1164" height="168" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.0.center" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
-    <state width="1164" height="168" key="GridCell.Tab.0.left" timestamp="1582145687203">
+    <state width="1164" height="168" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.0.left" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
-    <state width="1164" height="168" key="GridCell.Tab.0.right" timestamp="1582145687203">
+    <state width="1164" height="168" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.0.right" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
-    <state width="1164" height="168" key="GridCell.Tab.1.bottom" timestamp="1582145687203">
+    <state width="1164" height="168" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.1.bottom" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
-    <state width="1164" height="168" key="GridCell.Tab.1.center" timestamp="1582145687203">
+    <state width="1164" height="168" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.1.center" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
-    <state width="1164" height="168" key="GridCell.Tab.1.left" timestamp="1582145687203">
+    <state width="1164" height="168" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.1.left" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
-    <state width="1164" height="168" key="GridCell.Tab.1.right" timestamp="1582145687203">
+    <state width="1164" height="168" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.1.right" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1582145687203" />
-    <state width="1164" height="168" key="GridCell.Tab.2.bottom" timestamp="1582145687204">
+    <state width="1164" height="168" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.2.bottom" timestamp="1582229480852">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582145687204" />
-    <state width="1164" height="168" key="GridCell.Tab.2.center" timestamp="1582145687204">
+    <state width="1164" height="168" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582229480852" />
+    <state width="1164" height="168" key="GridCell.Tab.2.center" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1582145687204" />
-    <state width="1164" height="168" key="GridCell.Tab.2.left" timestamp="1582145687204">
+    <state width="1164" height="168" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.2.left" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1582145687204" />
-    <state width="1164" height="168" key="GridCell.Tab.2.right" timestamp="1582145687204">
+    <state width="1164" height="168" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
+    <state width="1164" height="168" key="GridCell.Tab.2.right" timestamp="1582229480851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1164" height="168" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1582145687204" />
+    <state width="1164" height="168" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1582229480851" />
     <state width="1164" height="168" key="GridCell.Tab.3.bottom" timestamp="1582143189654">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -471,10 +443,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="200" y="8" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1581101896383" />
-    <state x="428" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1582047819526">
+    <state x="428" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1582226638608">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="428" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1582047819526" />
+    <state x="428" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1582226638608" />
     <state x="102" y="139" key="new project wizard" timestamp="1581014299918">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -497,7 +469,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/javaMentor/Dao/UserDaoHiberbate.java</url>
-          <line>27</line>
+          <line>32</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
